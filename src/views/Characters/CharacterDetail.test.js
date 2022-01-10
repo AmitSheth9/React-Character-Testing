@@ -2,7 +2,6 @@ import {screen, render } from '@testing-library/react';
 import { rest } from 'msw';
 import { setupServer } from 'msw/node'
 import { MemoryRouter } from 'react-router-dom'
-import Server from 'webpack-dev-server';
 import CharacterDetail from './CharacterDetail';
 import App from '../../App';
 
