@@ -6,7 +6,7 @@ import CharacterList from './CharacterList'
 import App from '../../App';
 
 const server = setupServer();
-rest.get(`https://rickandmortyapi.com/api/character?page=1`, (req, res, ctx) => {
+rest.get('https://rickandmortyapi.com/api/character', (req, res, ctx) => {
     return res(ctx.json({
         info: {
             pages: 1
