@@ -6,7 +6,7 @@ import './App.css';
 
 export default function App() {
   return (
-    <Router>
+    
       <Switch>
         <Route path="/characters/:id">
           <CharacterDetail />
@@ -18,6 +18,6 @@ export default function App() {
           <Home />
         </Route>
       </Switch>
-    </Router>
+    
   );
 }
